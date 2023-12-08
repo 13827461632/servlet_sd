@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet_sd:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet_sd_war</output-path>
+    <root id="archive" name="servlet_sd_war.war">
+      <element id="artifact" artifact-name="servlet_sd:war exploded" />
+    </root>
+  </artifact>
+</component>
