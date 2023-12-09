@@ -10,7 +10,6 @@ import java.io.IOException;
 @WebFilter("/sfilter")
 public class filterCT implements Filter {
 
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println("----->开始进入过滤器"); //启动服务就会初始化  init方法
