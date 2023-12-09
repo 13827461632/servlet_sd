@@ -69,8 +69,10 @@
         <url-pattern>/zz/haha</url-pattern>
     </filter-mapping>
 
-
-
+    <!--不设置默认30分钟,设置session失效时间 单位：分钟 一旦页面有操作sesion 时效时间就开始重新计时-->
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
 
     <welcome-file-list>
         <welcome-file>welcome.jsp</welcome-file><!--设置启动项首页。没有设置默认为index.jsp为首页-->
